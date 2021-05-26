@@ -6,21 +6,21 @@ document.addEventListener('DOMContentLoaded', () => {
     const themeIcon = localStorage.getItem('theme-toggle');
     if(storedTheme){
         themeStylesheet.href = storedTheme;
-        themeToggle.src = themeIcon;    
+        themeToggle.innerText = themeIcon;    
     }
     
     themeToggle.addEventListener('click', () => {
         // if it's light -> go dark
         if(themeStylesheet.href.includes('light')){
             themeStylesheet.href = 'dark-mode.css';
-            themeToggle.src = "/icon/sun.png";
+            themeToggle.innerText = 'Light';
         } else {
             // if it's dark -> go light
             themeStylesheet.href = 'light-mode.css';
-            themeToggle.src = "/icon/moon.png";
+            themeToggle.innerText = 'Dark';
         }
         // save the preference to localStorage
         localStorage.setItem('theme',themeStylesheet.href);
-        localStorage.setItem('theme-toggle',themeToggle.src);
+        localStorage.setItem('theme-toggle',themeToggle.innerText);
     })
 })

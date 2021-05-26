@@ -49,16 +49,22 @@ body{
     padding: 25px 30px;
 }
 .form header{
+    display: flex;
     font-size: 25px;
     font-weight: 600;
     padding-bottom: 5px;
     border-bottom: 3px solid var(--borderBottom);
-    color: var(--uniColor)
+    color: var(--uniColor);
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
 }
-.form header img{
-    margin-left: 190px;
-    margin-bottom: -5px;
-    height: 30px;
+.form header a{
+    color: var(--logouttxtColor);
+    font-size: 17px;
+    padding: 5px 5px;
+    background: var(--logoutBgColor);
+    border-radius: 20px;
 }
 .form form{
     margin: 20px 0;
@@ -162,10 +168,12 @@ form .name-details .field:last-child{
 }
 
 /* Users css*/
-.users header img{
-    margin-left: 5px;
-    margin-top: 1px;
-    height: 30px;
+.users header .dimg{
+    color: var(--logouttxtColor);
+    font-size: 17px;
+    padding: 5px 5px;
+    background: var(--logoutBgColor);
+    border-radius: 20px;
 }
 .users{
     padding: 25px 30px;
@@ -285,10 +293,13 @@ form .name-details .field:last-child{
 }
 /* Chat Area css*/
 .chat-area header .dimg{
-    margin-left: 5px;
-    margin-top: 1px;
-    height: 30px;
     margin-left: 120px;
+    color: var(--logouttxtColor);
+    font-size: 17px;
+    padding: 5px 5px;
+    background: var(--logoutBgColor);
+    border-radius: 20px;
+    
 }
 
 .chat-area header{
