@@ -293,7 +293,7 @@ form .name-details .field:last-child{
 }
 /* Chat Area css*/
 .chat-area header .dimg{
-    margin-left: 120px;
+    margin-left: 100px;
     color: var(--logouttxtColor);
     font-size: 17px;
     padding: 5px 5px;
