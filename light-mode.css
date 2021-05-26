@@ -21,26 +21,6 @@
     --chatBgColor: #ffdde6;
 }
 
-.dark-theme{
-    --uniColor: #fff;
-    --background: #000;
-    --wrapper: #191919;
-    --borderBottom: #5d5d5d;
-    --errorColor: #721c24;
-    --errorBgColor: #f8d7da;
-    --errorBorderColor: #f5c6cb;
-    --inputBorder: #5f5f5f;
-    --imgInput: #323232;
-    --imgtxtInput: #000;
-    --imgBgColor: #cbcbcb; 
-    --buttonBgColor: rgb(30, 255, 0);
-    --buttontxtColor: #000;
-    --inputBgColor: #000;
-    --logoutBgColor: #f7f7f7;
-    --logouttxtColor: #000;
-    --userListP: #7fe7e2;
-    --chatBgColor: #070202;
-}
 *{
     margin: 0;
     padding: 0;
@@ -238,6 +218,7 @@ form .name-details .field:last-child{
 }
 .users .search .text{
     font-size: 18px;
+    color: var(--uniColor);
 }
 .users .search input{
     color: var(--uniColor);
