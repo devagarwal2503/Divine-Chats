@@ -57,9 +57,10 @@ body{
     color: var(--uniColor);
     position: relative;
     align-items: center;
-    justify-content: space-between;
 }
+
 .form header a{
+    margin-left: 110px;
     color: var(--logouttxtColor);
     font-size: 17px;
     padding: 5px 5px;
@@ -116,19 +117,20 @@ form .name-details .field:last-child{
     font-size: 17px;
     background: var(--imgInput);
     border-radius: 50px;
-    width: 70%;
+    width: 60%;
     outline: none;
 }
 ::-webkit-file-upload-button{
     color: var(--imgtxtInput);
     background: var(--imgBgColor);
-    padding: 4px;
+    padding: 1px;
     border: 2px solid var(--inputBorder);
     border-radius: 50px;
 }
 ::-webkit-file-upload-button:hover{
-    background: red;
+    background: var(--buttonBgColor);
     cursor: pointer;
+    color: var(--buttontxtColor);
 }
 .form form .button input{
     margin-top: 13px;
