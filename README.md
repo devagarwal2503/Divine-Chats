@@ -1,5 +1,5 @@
 # Divine Chats
-
+[Try it your self](https://divinechats.000webhostapp.com/)
 ### Project Participants: Dev  Agarwal, Vineeth Pillai.
 ### Presentation Title:  Web Based Chat Application
 ### Research focus:  Creating a real-time Chat Application using PHP and MySQL
